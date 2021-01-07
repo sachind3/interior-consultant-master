@@ -49,5 +49,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://sachindesai.in)
+- Website [sachindesai.in](https://sachindesai.in)
 - GitHub [@sachind3](https://github.com/sachind3)
