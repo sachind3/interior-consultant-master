@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+    <title>Interior Consultant | Sachin Desai</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <a href="javascript:void(0);" class="logo">This Interior</a>
+        <div id="hamburger" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href="javascript:void(0);" class="active">Home</a></li>
+            <li><a href="javascript:void(0);">Collection</a></li>
+            <li><a href="javascript:void(0);">About</a></li>
+            <li><a href="javascript:void(0);">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="section-content">
+      <div class="wrapper">
+        <div class="info">
+          <h2>Modern interior</h2>
+          <p>
+            A full-Service residential & commercial interior design and staging
+            company offering professional organizing & eco-services.
+          </p>
+          <a href="javascript:void(0);">Read more <span>&#8594;</span></a>
+        </div>
+        <div class="info-image">
+          <img src="images/photo1.png" alt="img" class="infoImg" />
+          <div class="designer-panel">
+            <div class="designer-info">
+              <img src="images/photo2.png" alt="designer" class="profileImg" />
+              <p>Aliza Webber</p>
+              <span>Interior designer</span>
+            </div>
+            <div class="designer-article">
+              Designed in 2020 by<br />Aliza Webber
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="wrapper">Sachin Desai @ DevChallenges.io</div>
+    </footer>
+    <script>
+      let body = document.body;
+      let hamburger = document.querySelector(".hamburger");
+      let nav = document.querySelector(".nav");
+      hamburger.addEventListener("click", openMenu);
+      function openMenu(e) {
+        this.classList.toggle("active");
+        nav.classList.toggle("active");
+        body.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
